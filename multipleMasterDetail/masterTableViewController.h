@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class subMasterTableViewController;
+
 @interface masterTableViewController : UITableViewController
 
 @property NSMutableArray *masterSource;
+
+//subMasterTableViewController
+@property (strong, nonatomic) subMasterTableViewController *subMasterTableViewController;
 
 @end
