@@ -22,6 +22,7 @@
 		9C58E732187ADAAD003FF2A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C58E711187ADAAD003FF2A2 /* UIKit.framework */; };
 		9C58E73A187ADAAD003FF2A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C58E738187ADAAD003FF2A2 /* InfoPlist.strings */; };
 		9C58E73C187ADAAD003FF2A2 /* multipleMasterDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C58E73B187ADAAD003FF2A2 /* multipleMasterDetailTests.m */; };
+		9CEBB94B187ADD3400840C54 /* masterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEBB94A187ADD3400840C54 /* masterTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		9C58E737187ADAAD003FF2A2 /* multipleMasterDetailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multipleMasterDetailTests-Info.plist"; sourceTree = "<group>"; };
 		9C58E739187ADAAD003FF2A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C58E73B187ADAAD003FF2A2 /* multipleMasterDetailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = multipleMasterDetailTests.m; sourceTree = "<group>"; };
+		9CEBB949187ADD3400840C54 /* masterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = masterTableViewController.h; sourceTree = "<group>"; };
+		9CEBB94A187ADD3400840C54 /* masterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = masterTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				9C58E71D187ADAAD003FF2A2 /* AppDelegate.m */,
 				9C58E71F187ADAAD003FF2A2 /* Main_iPhone.storyboard */,
 				9C58E722187ADAAD003FF2A2 /* Main_iPad.storyboard */,
+				9CEBB949187ADD3400840C54 /* masterTableViewController.h */,
+				9CEBB94A187ADD3400840C54 /* masterTableViewController.m */,
 				9C58E725187ADAAD003FF2A2 /* ViewController.h */,
 				9C58E726187ADAAD003FF2A2 /* ViewController.m */,
 				9C58E728187ADAAD003FF2A2 /* Images.xcassets */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C58E727187ADAAD003FF2A2 /* ViewController.m in Sources */,
+				9CEBB94B187ADD3400840C54 /* masterTableViewController.m in Sources */,
 				9C58E71E187ADAAD003FF2A2 /* AppDelegate.m in Sources */,
 				9C58E71A187ADAAD003FF2A2 /* main.m in Sources */,
 			);
@@ -476,6 +482,7 @@
 				9C58E741187ADAAD003FF2A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C58E742187ADAAD003FF2A2 /* Build configuration list for PBXNativeTarget "multipleMasterDetailTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +491,7 @@
 				9C58E744187ADAAD003FF2A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
