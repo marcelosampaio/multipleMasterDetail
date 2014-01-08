@@ -7,6 +7,7 @@
 //
 
 #import "masterTableViewController.h"
+#import "subMasterTableViewController.h"
 
 @interface masterTableViewController ()
 
@@ -70,6 +71,32 @@
     
     return cell;
 }
+
+
+// Receiving masterTableViewController parameter
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        self.subMasterTableViewController.detailItem = [self.masterSource objectAtIndex:indexPath.row];
+    }
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"showDetail"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        [[segue destinationViewController] setDetailItem:[self.masterSource objectAtIndex:indexPath.row]];
+        
+    }
+}
+
+
+
+
+
+
+
+
 
 /*
 // Override to support conditional editing of the table view.

@@ -17,4 +17,9 @@
 //ViewController  (detail)
 @property (strong, nonatomic) ViewController *ViewController;
 
+
+// parameter from masterTableViewController
+@property (strong, nonatomic) id detailItem;
+//-----------------------------------------
+
 @end

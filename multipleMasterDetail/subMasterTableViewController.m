@@ -28,6 +28,12 @@
 {
     [super viewDidLoad];
     [self loadSource];
+    
+    // display input property
+    NSLog(@"carreguei com %@",self.detailItem);
+    
+    
+    
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
