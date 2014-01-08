@@ -7,6 +7,7 @@
 //
 
 #import "subMasterTableViewController.h"
+#import "ViewController.h"
 
 @interface subMasterTableViewController ()
 
@@ -75,6 +76,23 @@
     // Configure the cell...
     cell.textLabel.text=[self.subMasterSource objectAtIndex:indexPath.row];
     return cell;
+}
+
+// Receiving subMasterTableViewController parameter
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        self.ViewController.detailItem = [self.subMasterSource objectAtIndex:indexPath.row];
+    }
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"showDetail2"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        [[segue destinationViewController] setDetailItem:[self.subMasterSource objectAtIndex:indexPath.row]];
+        
+    }
 }
 
 /*

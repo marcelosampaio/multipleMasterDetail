@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+
+// parameter from subMasterTableViewController
+@property (strong, nonatomic) id detailItem;
+//-----------------------------------------
+
 @end

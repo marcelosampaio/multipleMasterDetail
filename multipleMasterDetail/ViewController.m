@@ -18,7 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"inside ViewController - detail page");
+
+    // display input property
+    NSLog(@"inside ViewController - detail page ---- carreguei com %@",self.detailItem);
 }
 
 - (void)didReceiveMemoryWarning
