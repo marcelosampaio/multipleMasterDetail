@@ -78,7 +78,7 @@
     return cell;
 }
 
-// Receiving subMasterTableViewController parameter
+// Passing subMasterTableViewController parameter
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {

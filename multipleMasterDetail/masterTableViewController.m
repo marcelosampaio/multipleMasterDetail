@@ -73,7 +73,7 @@
 }
 
 
-// Receiving masterTableViewController parameter
+// Passing masterTableViewController parameter
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
