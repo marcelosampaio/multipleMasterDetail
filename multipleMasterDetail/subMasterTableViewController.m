@@ -75,6 +75,30 @@
     
     // Configure the cell...
     cell.textLabel.text=[self.subMasterSource objectAtIndex:indexPath.row];
+    
+    switch (indexPath.row) {
+        case 0:
+            cell.imageView.image=[UIImage imageNamed:@"104-index-cards.png"];
+            break;
+        case 1:
+            cell.imageView.image=[UIImage imageNamed:@"105-piano.png"];
+            break;
+        case 2:
+            cell.imageView.image=[UIImage imageNamed:@"106-sliders.png"];
+            break;
+        case 3:
+            cell.imageView.image=[UIImage imageNamed:@"108-badge.png"];
+            break;
+        case 4:
+            cell.imageView.image=[UIImage imageNamed:@"109-chicken.png"];
+            break;
+        case 6:
+            cell.imageView.image=[UIImage imageNamed:@"110-bug.png"];
+            break;
+        default:
+            cell.imageView.image=[UIImage imageNamed:@"107-widescreen.png"];
+            break;
+    }
     return cell;
 }
 
@@ -91,7 +115,6 @@
     if ([[segue identifier] isEqualToString:@"showDetail2"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         [[segue destinationViewController] setDetailItem:[self.subMasterSource objectAtIndex:indexPath.row]];
-        
     }
 }
 
