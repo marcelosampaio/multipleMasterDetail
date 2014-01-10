@@ -69,6 +69,21 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     cell.textLabel.text=[self.masterSource objectAtIndex:indexPath.row];
     
+    switch (indexPath.row) {
+        case 0:
+            cell.imageView.image=[UIImage imageNamed:@"100-coffee.png"];
+            break;
+        case 1:
+            cell.imageView.image=[UIImage imageNamed:@"101-gameplan.png"];
+            break;
+        case 2:
+            cell.imageView.image=[UIImage imageNamed:@"102-walk.png"];
+            break;
+        default:
+            cell.imageView.image=[UIImage imageNamed:@"103-map.png"];
+            break;
+    }
+    
     return cell;
 }
 
