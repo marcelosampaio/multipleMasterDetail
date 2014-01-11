@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="-234" y="2784"/>
         </scene>
-        <!--View Controller - Item 1-->
+        <!--Scroll View Controller-->
         <scene sceneID="HVk-vE-S4u">
             <objects>
-                <viewController id="Xh5-dc-Ksu" sceneMemberID="viewController">
+                <viewController id="Xh5-dc-Ksu" customClass="scrollViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Fjd-Kw-dDb"/>
                         <viewControllerLayoutGuide type="bottom" id="RHP-YR-0ph"/>
@@ -48,9 +48,18 @@
                     <view key="view" contentMode="scaleToFill" id="yKM-j9-vdp">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Dy-By-wFO">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="t15-YE-Bjq"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="t15-YE-Bjq"/>
+                    <connections>
+                        <outlet property="scroll" destination="2Dy-By-wFO" id="iWO-gh-udl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C6I-IL-c6G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,7 +69,7 @@
         <scene sceneID="oBT-bw-UwE">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="qro-DI-Akh" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="geb-d5-vWC">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -76,7 +85,7 @@
             </objects>
             <point key="canvasLocation" x="-2284" y="1528"/>
         </scene>
-        <!--View Controller - Item 2-->
+        <!--View Controller-->
         <scene sceneID="PVn-Gn-UVP">
             <objects>
                 <viewController id="9n5-BG-NBl" sceneMemberID="viewController">
@@ -89,7 +98,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="NK0-yQ-E2h"/>
+                    <tabBarItem key="tabBarItem" systemItem="recents" id="NK0-yQ-E2h"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RQ6-md-sju" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -146,11 +155,11 @@
             </objects>
             <point key="canvasLocation" x="1596" y="2779"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller-->
         <scene sceneID="gzZ-gi-1f2">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iNV-zb-MMM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="X6W-y2-cRg"/>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="X6W-y2-cRg"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DIq-Fc-ESE">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>

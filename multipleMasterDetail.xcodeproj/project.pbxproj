@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C19DA5918816D1100A9805D /* scrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C19DA5818816D1100A9805D /* scrollViewController.m */; };
 		9C422F7018803B7100E75649 /* 100-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C422EA518803B7100E75649 /* 100-coffee.png */; };
 		9C422F7118803B7100E75649 /* 101-gameplan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C422EA618803B7100E75649 /* 101-gameplan.png */; };
 		9C422F7218803B7100E75649 /* 102-walk.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C422EA718803B7100E75649 /* 102-walk.png */; };
@@ -38,6 +39,9 @@
 		9C58E732187ADAAD003FF2A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C58E711187ADAAD003FF2A2 /* UIKit.framework */; };
 		9C58E73A187ADAAD003FF2A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C58E738187ADAAD003FF2A2 /* InfoPlist.strings */; };
 		9C58E73C187ADAAD003FF2A2 /* multipleMasterDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C58E73B187ADAAD003FF2A2 /* multipleMasterDetailTests.m */; };
+		9CC3C046188097CE004E884E /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3C043188097CE004E884E /* 96-book.png */; };
+		9CC3C047188097CE004E884E /* 117-todo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3C044188097CE004E884E /* 117-todo.png */; };
+		9CC3C048188097CE004E884E /* 48-fork-and-knife.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3C045188097CE004E884E /* 48-fork-and-knife.png */; };
 		9CEBB94B187ADD3400840C54 /* masterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEBB94A187ADD3400840C54 /* masterTableViewController.m */; };
 		9CEBB94E187ADF6000840C54 /* subMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEBB94D187ADF6000840C54 /* subMasterTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -53,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C19DA5718816D1100A9805D /* scrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrollViewController.h; sourceTree = "<group>"; };
+		9C19DA5818816D1100A9805D /* scrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scrollViewController.m; sourceTree = "<group>"; };
 		9C422EA518803B7100E75649 /* 100-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "100-coffee.png"; sourceTree = "<group>"; };
 		9C422EA618803B7100E75649 /* 101-gameplan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "101-gameplan.png"; sourceTree = "<group>"; };
 		9C422EA718803B7100E75649 /* 102-walk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "102-walk.png"; sourceTree = "<group>"; };
@@ -89,6 +95,9 @@
 		9C58E737187ADAAD003FF2A2 /* multipleMasterDetailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multipleMasterDetailTests-Info.plist"; sourceTree = "<group>"; };
 		9C58E739187ADAAD003FF2A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C58E73B187ADAAD003FF2A2 /* multipleMasterDetailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = multipleMasterDetailTests.m; sourceTree = "<group>"; };
+		9CC3C043188097CE004E884E /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
+		9CC3C044188097CE004E884E /* 117-todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "117-todo.png"; sourceTree = "<group>"; };
+		9CC3C045188097CE004E884E /* 48-fork-and-knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "48-fork-and-knife.png"; sourceTree = "<group>"; };
 		9CEBB949187ADD3400840C54 /* masterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = masterTableViewController.h; sourceTree = "<group>"; };
 		9CEBB94A187ADD3400840C54 /* masterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = masterTableViewController.m; sourceTree = "<group>"; };
 		9CEBB94C187ADF6000840C54 /* subMasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subMasterTableViewController.h; sourceTree = "<group>"; };
@@ -122,6 +131,9 @@
 		9C422E9A18803B7100E75649 /* PNG icons */ = {
 			isa = PBXGroup;
 			children = (
+				9CC3C043188097CE004E884E /* 96-book.png */,
+				9CC3C044188097CE004E884E /* 117-todo.png */,
+				9CC3C045188097CE004E884E /* 48-fork-and-knife.png */,
 				9C422EA518803B7100E75649 /* 100-coffee.png */,
 				9C422EA618803B7100E75649 /* 101-gameplan.png */,
 				9C422EA718803B7100E75649 /* 102-walk.png */,
@@ -186,6 +198,8 @@
 				9CEBB94D187ADF6000840C54 /* subMasterTableViewController.m */,
 				9C58E725187ADAAD003FF2A2 /* ViewController.h */,
 				9C58E726187ADAAD003FF2A2 /* ViewController.m */,
+				9C19DA5718816D1100A9805D /* scrollViewController.h */,
+				9C19DA5818816D1100A9805D /* scrollViewController.m */,
 				9C58E728187ADAAD003FF2A2 /* Images.xcassets */,
 				9C58E714187ADAAD003FF2A2 /* Supporting Files */,
 			);
@@ -303,16 +317,19 @@
 				9C422F7318803B7100E75649 /* 103-map.png in Resources */,
 				9C58E729187ADAAD003FF2A2 /* Images.xcassets in Resources */,
 				9C422F7618803B7100E75649 /* 106-sliders.png in Resources */,
+				9CC3C047188097CE004E884E /* 117-todo.png in Resources */,
 				9C422F7D18803B7100E75649 /* 112-group.png in Resources */,
 				9C422F7C18803B7100E75649 /* 111-user.png in Resources */,
 				9C422F8018803B7100E75649 /* 115-bow-and-arrow.png in Resources */,
 				9C422F7918803B7100E75649 /* 109-chicken.png in Resources */,
 				9C422F7F18803B7100E75649 /* 114-balloon.png in Resources */,
 				9C422F7718803B7100E75649 /* 107-widescreen.png in Resources */,
+				9CC3C048188097CE004E884E /* 48-fork-and-knife.png in Resources */,
 				9C422F7018803B7100E75649 /* 100-coffee.png in Resources */,
 				9C422F7118803B7100E75649 /* 101-gameplan.png in Resources */,
 				9C422F7B18803B7100E75649 /* 110-bug.png in Resources */,
 				9C422F7218803B7100E75649 /* 102-walk.png in Resources */,
+				9CC3C046188097CE004E884E /* 96-book.png in Resources */,
 				9C422F7E18803B7100E75649 /* 113-navigation.png in Resources */,
 				9C422F7818803B7100E75649 /* 108-badge.png in Resources */,
 				9C58E721187ADAAD003FF2A2 /* Main_iPhone.storyboard in Resources */,
@@ -337,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C58E727187ADAAD003FF2A2 /* ViewController.m in Sources */,
+				9C19DA5918816D1100A9805D /* scrollViewController.m in Sources */,
 				9CEBB94E187ADF6000840C54 /* subMasterTableViewController.m in Sources */,
 				9CEBB94B187ADD3400840C54 /* masterTableViewController.m in Sources */,
 				9C58E71E187ADAAD003FF2A2 /* AppDelegate.m in Sources */,
