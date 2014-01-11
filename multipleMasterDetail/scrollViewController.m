@@ -38,17 +38,20 @@
 -(void)loadScrollContent
 {
     NSLog(@"loadScrollContent");
-    
+    int scrollHeigth=3550;
     // Inicializa o scrollView
     self.scroll.scrollEnabled=YES;
-    
-    self.scroll.contentSize=CGSizeMake(self.view.bounds.size.width,3000);
+    self.scroll.contentSize=CGSizeMake(self.view.bounds.size.width,scrollHeigth);
     self.scroll.autoresizingMask = UIViewAutoresizingFlexibleHeight;
 
     // debug lines - only for the testings
-    for (int i=15; i<3000; i=i+15) {
+    for (int i=15; i<scrollHeigth; i=i+15) {
         UILabel *msg=[[UILabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width/2, i, 100, 20)];
-        msg.text=[NSString stringWithFormat:@"%d",i];
+        if (i<3000) {
+            msg.text=[NSString stringWithFormat:@"%d",i];
+        }else{
+            msg.text=[NSString stringWithFormat:@" "];
+        }
         msg.textAlignment=NSTextAlignmentRight;
         [self.scroll addSubview:msg];
     }
