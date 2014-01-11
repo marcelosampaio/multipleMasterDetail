@@ -55,13 +55,7 @@
         msg.textAlignment=NSTextAlignmentRight;
         [self.scroll addSubview:msg];
     }
-    
-    // Loading image from local repository
-    
-//    // Image 1
-//    UIImageView *imgView1 = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width/2, 45, 145, 48)];
-//    imgView1.image = [UIImage imageNamed:@"CriePortalLogo.jpg"];
-//    [self.scroll addSubview:imgView1];
+
 }
 
 
